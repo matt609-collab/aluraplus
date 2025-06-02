@@ -17,7 +17,6 @@ html{
     background-size: contain;
     font-family: 'Montserrat';
     color: var(--branco-principal);
-    text-align: center;
     font-size: 50px;
 }
 .container{
