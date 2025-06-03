@@ -8,6 +8,8 @@ html{
     background-color: var(--cor-fundo);
 }
 *{
+    font-family: 'Montserrat';
+    color: var(--branco-principal);
     margin: 0px;
     padding: 0px;
 }
@@ -15,10 +17,22 @@ html{
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: 'Montserrat';
-    color: var(--branco-principal);
-    font-size: 50px;
 }
 .container{
     height: 100vh;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__aviso{
+    font-size: 22px;
+}
+.container__botao{
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
