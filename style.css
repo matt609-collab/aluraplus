@@ -43,6 +43,8 @@ html{
     display: block;
     text-decoration: none;
     margin-bottom: 1em;
+    margin-left: 22.5%;
+    margin-top: 1em;
 }
 .container__aviso{
     font-size: 12px;
@@ -67,4 +69,16 @@ html{
 .secundario{
     align-items: center;
     margin: 0 10em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+.container__descricao{
+    padding: 2em;
 }
